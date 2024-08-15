@@ -1,0 +1,97 @@
+.login-form {
+  width: 380px; // Increased width for better readability
+  background-color: #FFFFFF; // Ensure a white background for the form
+  a{
+    text-decoration: underline;
+    color: #000000;
+  }
+}
+.main-container{
+  background-color: #f0f0f0;
+}
+.login-form h2 {
+  font-size: 24px; // Larger heading size
+  font-weight: 400; // Setting font weight to 400
+  margin: 0 0 32px 0;
+}
+
+.form-group {
+  input {
+    width: 380px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid black; /* Встановити тонкий чорний бордер */
+  }
+  #email{
+    margin-bottom: 36px;
+  }
+  .email{
+    margin-bottom: 51px;
+
+  }
+  #code{
+    margin-bottom: 51px;
+  }
+}
+.remember{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  .label {
+    margin: 0;
+  }
+  input{
+    margin: 0 8px 0 0;
+  }
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px; // Increased label size
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 16px; // Increased input size
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+}
+
+.button {
+  width: 380px;
+  background-color: #2FA837;
+  height: 48px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #2FA837;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px; // Slightly larger text for better readability
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+p{
+
+}
